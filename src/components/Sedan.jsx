@@ -2,8 +2,8 @@ import React from 'react';
 
 const Sedan = () => {
   return (
-    <div className="h-[100%] flex-1 bg-bright-orange rounded-tl-md rounded-bl-md ">
-      <div className="p-9 flex flex-col justify-between h-[100%]">
+    <div className="h-[100%] flex-1 bg-bright-orange rounded-tr-md lg:rounded-tr-none rounded-tl-md lg:rounded-bl-md ">
+      <div className="p-9 flex flex-col justify-between h-[100%] gap-8">
         <div className="flex flex-col gap-6">
           <svg width="64" height="40" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">

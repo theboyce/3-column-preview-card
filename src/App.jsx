@@ -4,8 +4,8 @@ import Suv from './components/Suv';
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-[100vh] w-full">
-      <div className="w-[60%] h-[75%] rounded-lg bg-red-400 flex">
+    <div className="flex justify-center items-center lg:h-[100vh] w-full py-[36px] ">
+      <div className="w-[85%]  lg:w-[60%] lg:h-[70%] rounded-lg flex flex-col lg:flex-row">
         <Sedan />
         <Suv />
         <Luxury />

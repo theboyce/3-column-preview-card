@@ -2,6 +2,10 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      sm: '375px',
+      lg: '1200px',
+    },
     extend: {
       colors: {
         'bright-orange': 'hsl(31, 77%, 52%)',

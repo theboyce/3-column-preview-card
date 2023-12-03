@@ -3,7 +3,7 @@ import React from 'react';
 const Suv = () => {
   return (
     <div className="h-[100%] flex-1 bg-dark-cyan  ">
-      <div className="p-9 flex flex-col justify-between h-[100%]">
+      <div className="p-9 flex flex-col justify-between h-[100%] gap-8">
         <div className="flex flex-col gap-6">
           <svg width="64" height="40" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
@@ -20,11 +20,11 @@ const Suv = () => {
             SUVS
           </h2>
           <p className="font-lexend text-[15px] text-trans-white">
-            Choose a sedan for its affordabiity and excellent fuel economy.
-            Ideal for cruisiing in the city or on your next road trip.
+            Take an SUV for its spacious interior, power, and versatility.
+            Perfect for your next family vacation and off-road adventures.
           </p>
         </div>
-        <button className="w-[70%] py-3 px-6 bg-very-light-gray rounded-full font-lexend text-[15px] text-bright-orange active:border-very-light-gray active:border active:text-very-light-gray active:bg-bright-orange">
+        <button className="w-[70%] py-3 px-6 bg-very-light-gray rounded-full font-lexend text-[15px] text-dark-cyan active:border-very-light-gray active:border active:text-very-light-gray active:bg-dark-cyan">
           Learn More
         </button>
       </div>
