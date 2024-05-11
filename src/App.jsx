@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="flex justify-center items-center lg:h-[100vh] w-full py-[36px] ">
       <div className="w-[85%]  lg:w-[60%] lg:h-[70%] rounded-lg flex flex-col lg:flex-row">
+        {/* back at it */}
         <Sedan />
         <Suv />
         <Luxury />
